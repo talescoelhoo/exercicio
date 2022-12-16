@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif ;
+            background-color: darkgrey;
+            margin: 0px;
+
+        }
+
+        header{
+            background-color: antiquewhite;
+            padding: 6px;
+            margin: 8px;
+
+        }
+         nav{
+             background-color: darkgray;
+             padding: 3px;
+             box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.377);
+         }
+
+         nav > a{
+             text-decoration: none;
+             color: white;
+             font-weight: bold;
+             margin-right: 30px;
+             
+         }
+
+         nav > a:hover{
+             text-decoration: underline;
+         }
+
+         main{
+             background-color: aliceblue;
+             padding: 10px;
+             margin: 8px;
+             border-radius: 10px 0px;
+             box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.205);
+         }
+
+         article{
+             background-color: beige;
+             padding: 8px;
+             border: 10px;
+             border-color: black;
+         }
+
+         article > aside:hover{
+             background-color: blanchedalmond;
+             text-decoration: underline;
+         }
+
+         footer{
+             background-color: black;
+             color: white;
+             text-align: center;
+             padding: 1px;
+             margin: 0px;
+         }
+         
+         footer > p{
+             margin: 0px;
+         }
+
+         div#bola{
+             height: 100px;
+             width: 100px;
+             margin: 8px;
+             border-radius: 50%;
+             background-color: white;
+
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticia">
+<article>
+    <h2>Notícia sobre o Brasil</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem fugiat at tenetur nam sunt neque facere ut incidunt amet optio perspiciatis molestias corrupti, temporibus sit ipsum laudantium laborum laboriosam!</p>
+    <aside>
+       <p>Escrito por José de Alencar</p>
+    </aside>
+</article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cruso em video</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
